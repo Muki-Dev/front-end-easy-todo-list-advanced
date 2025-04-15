@@ -8,7 +8,7 @@ function TaskForm({addTask}) {
 			e.preventDefault();
 			if(!text) return;
 			const newTask = {
-				id: Date.naw(),
+				id: Date.now(),
 				text,
 				category,
 				completed: false,
