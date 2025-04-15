@@ -16,7 +16,7 @@ function TaskForm({addTask}) {
 
 			addTask(newTask);
 			setText('')
-			setCategory('personne1')
+			setCategory('personnel')
 		};
 
 		return(
